@@ -1,0 +1,21 @@
+table{
+    text-align: center;
+    color: white;
+    border: solid #c7ced8 30px;
+    border-spacing: 0px;
+    margin: 30px;
+}
+thead, tfoot{
+    background-color: #27426d;
+}
+tbody tr:nth-child(odd){
+    background-color: #4f8cef;
+}
+tbody tr:nth-child(even){
+    background-color: #6facff;
+}
+td{
+    width: 14%;
+    border: solid black 1px;
+    padding: 5px;
+}
